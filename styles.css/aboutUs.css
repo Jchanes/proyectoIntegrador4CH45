@@ -1,7 +1,9 @@
 .texto {
    background-color: black;
+   opacity: 55%;
+   
 }
 
-h1{
-   font-size: 1600px;
+.texto h5 p {
+   opacity: 100%;
 }
