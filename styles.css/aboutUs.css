@@ -16,22 +16,6 @@ p {
    margin: 20px;
 }
 
-.intro {
-   font-family: 'Arial', sans-serif;
-   position: relative;
-   width: 978px;
-   height: 431px;
-   left: 224px;
-   top: 144px;
-}
-
-.title {
-   font-family: 'Arial', sans-serif;
-   font-weight: bold;
-   text-transform: uppercase;
-   margin-bottom: 1rem;
-}
-
 .description {
    font-family: 'Arial', sans-serif;
    font-size: 16px;
@@ -62,9 +46,15 @@ p {
 /* Margen para separar la caption de la imagen */
 .carousel-caption {
    margin-bottom: 20px;
-   /* Ajusta este valor según sea necesario */
-   background-color: rgb(148, 105, 162, .5);
-
+   background-color: rgba(148, 105, 162, 0.5);
+   padding: 1rem;
+   border-radius: 5px;
+   position: absolute; 
+   bottom: 0; 
+   left: 50%;
+   transform: translateX(-50%); 
+   text-align: center;
+   width: 90%; 
 }
 
 .carousel-caption h5 {
@@ -81,16 +71,40 @@ p {
    border-radius: 5px;
 }
 
+/* Responsividad */
+@media (max-width: 768px) {
+   .carousel-caption {
+       padding: 0.5rem;
+       margin-bottom: 10px;
+   }
+
+   .carousel-caption h5 {
+       font-size: 1.2rem;
+   }
+
+   .carousel-caption p {
+       font-size: 0.9rem;
+   }
+}
+
+@media (max-width: 576px) {
+   .carousel-caption {
+       padding: 0.5rem;
+       margin-bottom: 5px;
+   }
+
+   .carousel-caption h5 {
+       font-size: 1rem;
+   }
+
+   .carousel-caption p {
+       font-size: 0.8rem;
+   }
+}
+
+
 /* Controladores del carrusel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
    filter: invert(1);
-}
-
-/* Media queries para dispositivos más pequeños */
-@media (max-width: 768px) {
-   .carousel-inner img {
-      height: 300px;
-      width: 300px;
-   }
 }
