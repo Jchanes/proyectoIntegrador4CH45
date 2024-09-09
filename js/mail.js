@@ -1,8 +1,11 @@
 
 const sgMail = require('@sendgrid/mail')
 
+// API Key: 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
+
 function sendEmail(name, email, tel, message){
-    sgMail.setApiKey('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')
+
+    sgMail.setApiKey('API Key')
     const msg = {
     to: `${email}`, // Change to your recipient
     from: 'truefanboutique@gmail.com', // Change to your verified sender
