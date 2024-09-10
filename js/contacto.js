@@ -28,6 +28,53 @@ function validarEmail(email) {
     return pattern.test(email);
 }
 
+function sendEmail(name, email, tel, message){
+
+    const msg = {
+    From: `truefanboutique3@gmail.com`, // Change to your recipient
+    To: `${email}`, // Change to your verified sender
+    Subject: 'Gracias por mandar mensaje a TrueFan Boutique',
+    Body: `<strong>Tu mensaje es muy importante ${name} para nosotros, mantente al pendiente para recibir una respuesta a tus dudas. </strong>
+          <br>
+          <p> El mensaje recibido fue el siguiente:</p>
+          <ul>
+          <li> Nombre: ${name}</li>
+          <li> Correo: ${email}</li>
+          <li> Telefono: ${tel}</li>
+          <li> Mensaje: ${message}</li>
+          </ul>
+          <p> Tendrá respuesta en 2 a 3 días hábiles, nuestros expertos están trabajando en el asunto</p>
+    `,
+    Host: `smtp.elasticemail.com` ,
+    Username: `truefanboutique3@gmail.com` ,
+    Password: `EF911D6C79BA79433F007302769C0D703681`,
+    }
+
+    Email.send(msg)
+    .then( (info) => {
+
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Correo enviado éxitosamente",
+            showConfirmButton: false,
+            timer: 1500
+        });
+        
+    })
+    .catch( (err) => {
+        Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title: "Sucedio un error al enviar el correo",
+            showConfirmButton: false,
+            timer: 1500
+        })
+    })
+    ;
+    
+}
+
 btnValidar.addEventListener("click", function (event) {
     event.preventDefault(); 
 
@@ -80,13 +127,11 @@ btnValidar.addEventListener("click", function (event) {
     }
 
     if (isValidEmail && isValidMensaje && isValidName && isValidTelefono) {
-        Swal.fire({
-            position: "top-end",
-            icon: "success",
-            title: "Enviado",
-            showConfirmButton: false,
-            timer: 1500
-        });
+        
+
+        //Colocar la función de validación sendEmail()
+
+        sendEmail(txtname.value, txtmail.value, txtnumber.value, txtmessage.value)
 
   
         txtname.value = "";
@@ -103,6 +148,7 @@ btnValidar.addEventListener("click", function (event) {
         txtnumber.style.borderColor = "";
         txtmessage.style.border = "";
         txtmessage.style.borderColor = "";
+
 
     } else {
         Swal.fire({
