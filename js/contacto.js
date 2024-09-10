@@ -30,29 +30,16 @@ function validarEmail(email) {
 
 function sendEmail(name, email, tel, message){
 
-    const msg = {
-    From: `truefanboutique3@gmail.com`, // Change to your recipient
-    To: `${email}`, // Change to your verified sender
-    Subject: 'Gracias por mandar mensaje a TrueFan Boutique',
-    Body: `<strong>Tu mensaje es muy importante ${name} para nosotros, mantente al pendiente para recibir una respuesta a tus dudas. </strong>
-          <br>
-          <p> El mensaje recibido fue el siguiente:</p>
-          <ul>
-          <li> Nombre: ${name}</li>
-          <li> Correo: ${email}</li>
-          <li> Telefono: ${tel}</li>
-          <li> Mensaje: ${message}</li>
-          </ul>
-          <p> Tendrá respuesta en 2 a 3 días hábiles, nuestros expertos están trabajando en el asunto</p>
-    `,
-    Host: `smtp.elasticemail.com` ,
-    Username: `truefanboutique3@gmail.com` ,
-    Password: `EF911D6C79BA79433F007302769C0D703681`,
+    let data = {
+        name: name,
+        email: email,
+        tel: tel,
+        message: message
     }
 
-    Email.send(msg)
+    emailjs.send("service_3sr4zi6","template_bm1ym9o",data)
     .then( (info) => {
-
+        console.log(info)
         Swal.fire({
             position: "top-end",
             icon: "success",
@@ -63,6 +50,7 @@ function sendEmail(name, email, tel, message){
         
     })
     .catch( (err) => {
+        console.log(err)
         Swal.fire({
             position: "top-end",
             icon: "error",
