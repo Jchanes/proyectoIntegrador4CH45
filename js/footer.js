@@ -3,7 +3,7 @@ footer.classList.add('mi-footer');
 
 // Crear el contenido del footer
 footer.innerHTML = `
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 ps-lg-5  pt-4  border-top">
           <div class="col mb-3">
             <a href="./index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
               <img src="./Assets/logoTFB.png" class="bi me-2" width="80" height="80"></img>
@@ -36,6 +36,7 @@ footer.innerHTML = `
       
     
         </footer>
+        
 `;
 
 // Insertar el footer en el contenedor específico en el DOM
