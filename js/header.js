@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="icon" href="./Assets/logoTFB.png" type="image/x-icon"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css/headerStyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
-<body id="fondocolor">
+let headerGlobal = document.getElementById('headerGlobal')
+
+// Crear el contenido del footer
+headerGlobal.innerHTML = `
     <header class="headerFont">
         <nav class="navbar navbar-expand-sm border-bottom border-black" id="headerColor">
             <div class="container-fluid">
@@ -29,19 +18,19 @@
                             <a class="nav-link active" id="colorLetraNavBar" aria-current="page" href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="colorLetraNavBar" target="_blank">Rock</a >
+                            <a class="nav-link" href="./rock.html"" id="colorLetraNavBar" target="_blank">Rock</a >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="colorLetraNavBar" target="_blank">Indie</a>
+                            <a class="nav-link" href="./indie.html"" id="colorLetraNavBar" target="_blank">Indie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="colorLetraNavBar" target="_blank">EDM</a>
+                            <a class="nav-link" href="./edm.html"" id="colorLetraNavBar" target="_blank">EDM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="colorLetraNavBar" target="_blank">Regional</a>
+                            <a class="nav-link" href="./regional.html"" id="colorLetraNavBar" target="_blank">Regional</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank" id="colorLetraNavBar">Urban</a>
+                            <a class="nav-link" href="./urban.html"" target="_blank" id="colorLetraNavBar">Urban</a>
                         </li>
                         </ul>
                     </div>
@@ -57,5 +46,6 @@
             </div>
         </nav>
     </header>
-</body>
-</html>
+        
+`;
+
