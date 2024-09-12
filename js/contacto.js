@@ -63,7 +63,7 @@ btnValidar.addEventListener("click", function (event) {
 
     if (isValidEmail==true && isValidMensaje==true && isValidName==true && isValidTelefono==true) {
     Swal.fire({
-        position: "top-end",
+        position: "center",
         icon: "success",
         title: "Enviado",
         showConfirmButton: false,
@@ -74,7 +74,7 @@ btnValidar.addEventListener("click", function (event) {
 
     } else {
     Swal.fire({
-        position: "top-end",
+        position: "center",
         icon: "error",
         title: "Por favor llena los campos solicitados correctamente",
         showConfirmButton: false,

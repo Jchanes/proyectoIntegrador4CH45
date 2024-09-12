@@ -30,6 +30,7 @@ footer.innerHTML = `
               <li class="nav-item mb-2"><a href="./edm.html"" class="nav-link p-0 text-body-secondary" target="_blank">EDM</a></li>
               <li class="nav-item mb-2"><a href="./regional.html"" class="nav-link p-0 text-body-secondary" target="_blank">Regional</a></li>
               <li class="nav-item mb-2"><a href="./urban.html"" class="nav-link p-0 text-body-secondary" target="_blank">Urban</a></li>
+              <li class="nav-item mb-2"><a href="./productos.html"" class="nav-link p-0 text-body-secondary" target="_blank">Productos</a></li>
             </ul>
           </div>
       
