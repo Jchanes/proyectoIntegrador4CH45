@@ -33,6 +33,9 @@ headerGlobal.innerHTML = `
                             <a class="nav-link" href="./urban.html"" target="_blank" id="colorLetraNavBar">Urban</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="./productos.html"" target="_blank" id="colorLetraNavBar">Pop</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="./productos.html"" target="_blank" id="colorLetraNavBar">Productos</a>
                         </li>
                         </ul>
