@@ -43,5 +43,15 @@ addItem({'name':'Eau de Parfum Elixir de la Vida',
 addItem({'name':'EDC Las Vegas 2024 Vinyl Set',
     'img':'./Assets/edm/producto7edm.jpg.webp',
     'description':'Este es un PEDIDO ANTICIPADO para un juego de vinilo personalizado de 3 piezas en forma de margarita. Este es un artículo de edición limitada con solo 500 hechos.','precio':'$1,700.00'});
+//
+addItem({'name':'Gorra de béisbol Tomorrowland',
+        'img':'./Assets/edm/gorraedm.jpeg',
+        'description':'Tomorrowland-gorra de béisbol personalizada para hombre y mujer, gorro de béisbol con Snapback plano, estilo Hip Hop, para Festival de música de baile electrónico.','precio':'$499.00'});
 
+addItem({'name':'EDM termo D1 8oz eléctrica',
+        'img':'./Assets/edm/termoedm.jpg',
+        'description':'termo D1 8oz eléctrica de acero inoxidable música Dance Rave luces de fiesta Marca Perfection In Style.','precio':'$299.00'});
 
+addItem({'name':'T-Shirt by "TecHno"',
+        'img':'./Assets/edm/techNo.jpg',
+        'description':'T-Shirt oficial by TecHno, 100% algodón Camiseta cómoda y suave, un básico en tu armario Tipo de impresión Transfer.','precio':'$999.00'});

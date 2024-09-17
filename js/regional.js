@@ -54,9 +54,21 @@ addItem({'name':'Perezoso by "Natanael Cano"',
     'img':'./Assets/regional/peluche.webp',
     'description':'Perezoso oficial by Natanael Cano, 25 cm de alto',
     'precio':'$1599.00'});
-    
 
 
-        
+    addItem({'name':'Gorra by "Peso Pluma"',
+        'img':'./Assets/regional/gorra.webp',
+        'description':'Gorra oficial by Peso Pluma, clásica ajustable con visera plana bordada de 5 paneles',
+        'precio':'$399.00'});
 
 
+        addItem({'name':'T-Shirt by "Tigres del norte"',
+            'img':'./Assets/regional/tigres.jpg',
+            'description':'T-Shirt oficial by Tigres del norte, 100% algodón Camiseta cómoda y suave, un básico en tu armario',
+            'precio':'$599.00'});
+
+
+            addItem({'name':'T-Shirt by "Grupo Firme"',
+                'img':'./Assets/regional/playera7.webp',
+                'description':'T-Shirt by Grupo Firme, Playera con estampado de Impresión digital con mangas',
+                'precio':'$799.00'});
