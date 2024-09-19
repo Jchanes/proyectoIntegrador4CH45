@@ -32,7 +32,8 @@ footer.innerHTML = `
               <li class="nav-item mb-2"><a href="./urban.html"" class="nav-link p-0 text-body-secondary" target="_blank">Urban</a></li>
               <li class="nav-item mb-2"><a href="./rap.html"" class="nav-link p-0 text-body-secondary" target="_blank">Rap</a></li>
               <li class="nav-item mb-2"><a href="./productos.html"" class="nav-link p-0 text-body-secondary" target="_blank">Productos</a></li>
-            </ul>
+            <li class="nav-item mb-2"><a href="./agregarProductos.html"" class="nav-link p-0 text-body-secondary" target="_blank">Agregar productos</a></li>
+              </ul>
           </div>
       
     

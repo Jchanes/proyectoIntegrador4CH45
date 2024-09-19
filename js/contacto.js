@@ -11,7 +11,7 @@ let isValidMensaje = true
 let isValidEmail = true
 
 function validarName(name) {
-    let pattern = /^[a-zA-Z\s]{3,}$/
+    let pattern = /^[a-zA-ZáéíóúñÑ]{3,}+$/
     return pattern.test(name)
 }
 

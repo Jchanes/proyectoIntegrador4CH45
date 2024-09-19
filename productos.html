@@ -12,109 +12,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css/estilos.css">
-    <link rel="stylesheet" href="./styles.css/productos.css">
-
 </head>
 <body id="fondocolor">
-
     <div id="headerGlobal"></div>
 
-    <h1>Aqui se colocara el Formulario de Creación / Edición del producto</h1>
-
+    <h1 class="text-center">Lista de productos</h1>
 
     <div class="container">
-
-
-
-        <form id="" action="">
-
-
-
-
-        </form>
+        <div class="row justify-content-evenly" id="list-items"></div>
     </div>
-
-    <div class="wrapper bg-white container">
-        <div class="h2 text-center">Registro de productos</div>
-        <div class="h4 text-muted text-center pt-2">Ingrese los datos del producto solicitados</div>
-        
-            <form class="pt-3" >
-
-                <div class="container flex justify-content-center">
-                                    <!-- generos -->
-                <div class="d-flex justify-content-center">
-                    <label for="exampleFormControlSelect1">Seleccione un genero:</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                        <option>ROCK</option>
-                        <option>INDIE</option>
-                        <option>RAP</option>
-                        <option>EDM</option>
-                        <option>REGIONAL</option>
-                        <option>URBAN</option>
-                        <option>POP</option>
-                        </select>
-                    </div> <!--Generos-->
-
-                 <!-- nombre del producto-->
-                 <div class="form-group input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Nombre del producto:</span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                </div>
-               <!--nombre del producto-->
-                
-
-                <!-- descripcion -->
-                <div class="form-group input-group-sm ">
-                <label for="exampleFormControlTextarea1">Descripcion del producto: </label>
-                <textarea class="form-control" id="description" rows="3"></textarea>
-                </div> <!--decripcion-->
-
-                <!-- nombre del producto-->
-                <div class="form-group input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Nombre del producto:</span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                </div>
-               <!--nombre del producto-->
-
-                <!-- imagen -->
-                <div class="form-group input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">URL de la imagen:</span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                </div>
-                <!--imagen-->
-
-
-                <!-- precio -->
-                <div class="form-group input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Ingrese el precio: </span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                </div>
-                <!--precio-->
-
-                <div class="container text-center">
-                <button type="button " class="btn btn-primary rounded-pill btn-lg" id="btnValidar">Añadir Producto</button>
-                </div>
-                </div>
-
-
-
-            </form>
-    </div>
-
-
-
 
     <div id="footer"></div>
     <script src="./js/footer.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/formulario.js"></script>
     
 </body>
 </html>
