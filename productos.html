@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css/estilos.css">
+    <link rel="stylesheet" href="./styles.css/productos.css">
 
 </head>
 <body id="fondocolor">
@@ -20,19 +21,87 @@
 
     <h1>Aqui se colocara el Formulario de Creación / Edición del producto</h1>
 
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
-    <h2>-</h2><br>
+
+    <div class="container">
+
+
+
+        <form id="" action="">
+
+
+
+
+        </form>
+    </div>
+
+    <div class="wrapper bg-white ">
+        <div class="h2 text-center">Registro de productos</div>
+        <div class="h4 text-muted text-center pt-2">Ingrese los datos del producto solicitados</div>
+        <form class="pt-3" >
+
+                    <!-- generos -->
+        <div class="form-group d-flex justify-content-center">
+            <label for="exampleFormControlSelect1">Seleccione un genero:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>ROCK</option>
+                <option>INDIE</option>
+                <option>RAP</option>
+                <option>EDM</option>
+                <option>REGIONAL</option>
+                <option>URBAN</option>
+                <option>POP</option>
+            </select>
+            </div> <!--Generos-->
+
+            <div class="form-group py-2">
+                
+                        <!-- descripcion -->
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Descripcion del producto: </label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                            </div> <!--decripcion-->
+            </div>
+
+            <div class="form-group py-2">
+                                            
+                            <!-- nombre del producto-->
+                            <select class="form-control form-control-lg">
+                                <option>Nombre del producto:</option>
+                                </select>
+                                <!--nombre del producto-->
+                        
+            </div>
+            
+            <div class="form-group py-2">
+                
+                            <!-- imagen -->
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Seleccione la imagen del producto</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div> <!--imagen-->
+            </div>
+
+            <div class="form-group py-2">
+                                            <!-- precio -->
+                                            <select class="form-control form-control-lg">
+                                                <option>Precio del producto:</option>
+                                                </select>
+                                                <!--precio-->
+                                            </div>
+
+            <div class="container text-center">
+                <button type="button " class="btn btn-primary rounded-pill btn-lg" id="btnValidar">Añadir Producto</button>
+                </div>
+
+
+                
+
+
+
+        </form>
+    </div>
+
+
 
 
     <div id="footer"></div>
