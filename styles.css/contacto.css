@@ -1,0 +1,38 @@
+#fondocolor{
+    background-color: rgb(228, 223, 235)
+}
+
+#titulosHeader{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+#ubicacionHeader{
+    font-family: "Source Sans 3", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: small;
+}
+
+#cuerpoHeader{
+font-family: "Source Sans 3", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+}
+
+#margenContacto{
+    margin: 20px;
+}
+
+#btnValidar{
+    background-color: #9469A2;
+    border-color: #9469A2;
+}
+
+.tituloGrande{
+    font-size: 3rem
+}
+
