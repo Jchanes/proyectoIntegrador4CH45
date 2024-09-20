@@ -14,29 +14,65 @@ body {
     box-shadow: 20px 20px 80px rgb(206, 206, 206)
 }
 
-.h2, h4 {
+h2, h4 {
     font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
     font-style: normal;
+}
+
+.form-group{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+}
+
+.input-group-text{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+
+#labelStyle{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
 }
 
 .form-group{
     padding:  10px 30px 10px 30px;
 }
 
-
-.input-field {
+#precio, #titulo, #description, #link, #precio {
+    color: #7b4ca0;
+    border: 1px solid #7b4ca0;
     border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    border: 1px solid #400485;
-    color: #400485
+    outline: none; /* Para quitar el borde azul predeterminado al hacer focus */
+    transition: box-shadow 0.3s ease;
 }
 
-.input-field:hover {
-    color: #7b4ca0;
-    border: 1px solid #7b4ca0
+#exampleFormControlSelect1 {
+color: #7b4ca0;
+border: 1px solid #7b4ca0;
+border-radius: 5px;
+outline: none; /* Para quitar el borde azul predeterminado al hacer focus */
+transition: box-shadow 0.3s ease;
+
+}
+
+#precio:focus, #titulo:focus, #description:focus, #link:focus, #precio:focus {
+    box-shadow: 0 0 10px 2px #7b4ca0; /* Sombra al hacer focus */
+    border-color: #7b4ca0; /* Cambia el color del borde */
+  }
+
+#exampleFormControlSelect1:focus{
+    box-shadow: 0 0 10px 2px #7b4ca0; /* Sombra al hacer focus */
+    border-color: #7b4ca0; /* Cambia el color del borde */
 }
 
 input {
@@ -48,37 +84,6 @@ input {
     font-family: 'Poppins', sans-serif
 }
 
-.fa-eye-slash.btn {
-    border: none;
-    outline: none;
-    box-shadow: none
-}
-
-a {
-    text-decoration: none;
-    color: #400485;
-    font-weight: 700
-}
-
-a:hover {
-    text-decoration: none;
-    color: #7b4ca0
-}
-
-.option {
-    position: relative;
-    padding-left: 30px;
-    cursor: pointer
-}
-
-.option label.text-muted {
-    display: block;
-    cursor: pointer
-}
-
-.option input {
-    display: none
-}
 
 #btnValidar{
     background-color: #9469A2;
