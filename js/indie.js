@@ -1,4 +1,4 @@
-let listProducts = JSON.parse(localStorage.getItem("productos_local"));
+let listProducts = JSON.parse(localStorage.getItem("productos"));
 
 if(listProducts != null){
     listProducts.forEach(e => {
