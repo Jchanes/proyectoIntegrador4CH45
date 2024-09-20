@@ -1,3 +1,13 @@
+let listProducts = JSON.parse(localStorage.getItem("productos_local"));
+
+if(listProducts != null){
+    listProducts.forEach(e => {
+        if(e.genero==="rock"){
+           addItem(e);
+         }
+    });
+}
+
 function addItem(item){
     const itemHTML = '<div class="card mt-3 mb-5" style="width: 18rem;">\n' +
         '    <img src="'+item.img +'" class="card-img-top" alt="image">\n' +
