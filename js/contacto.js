@@ -11,7 +11,8 @@ let isValidMensaje = true
 let isValidEmail = true
 
 function validarName(name) {
-    let pattern = /^[a-zA-ZáéíóúñÑ]{3,}+$/
+  
+    let pattern = /^[a-zA-Z\s-]{3,}$/;
     return pattern.test(name)
 }
 
@@ -61,25 +62,45 @@ btnValidar.addEventListener("click", function (event) {
         console.log("Mensaje inválido (debe tener entre 30 y 500 caracteres)")
     }
 
-    if (isValidEmail==true && isValidMensaje==true && isValidName==true && isValidTelefono==true) {
-    Swal.fire({
-        position: "center",
-        icon: "success",
-        title: "Enviado",
-        showConfirmButton: false,
-        timer: 1500
-    }
-    
-    );
+    if (emailEsValido==true && mensajeEsValido==true && nombreEsValido==true && telefonoEsValido==true) {
+        
+        let templateParams = {
+           name: txtname.value,
+           email: txtmail.value,
+           tel: txtnumber.value,
+           message: txtmessage.value  
+        }
+
+        emailjs.send('service_3sr4zi6','template_bm1ym9o',templateParams)
+        .then((response)=>{
+            
+            console.log(response.status, response.txt)
+            Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Enviado",
+                showConfirmButton: false,
+                timer: 1500
+            });
+        })
+        .catch(()=>{
+            Swal.fire({
+                position: "center",
+                icon: "error",
+                title: "Por favor llena los campos solicitados correctamente",
+                showConfirmButton: false,
+                timer: 1500
+            });
+        })
 
     } else {
-    Swal.fire({
-        position: "center",
-        icon: "error",
-        title: "Por favor llena los campos solicitados correctamente",
-        showConfirmButton: false,
-        timer: 1500
-    });
+            Swal.fire({
+                position: "center",
+                icon: "error",
+                title: "Por favor llena los campos solicitados correctamente",
+                showConfirmButton: false,
+                timer: 1500
+            });
     }
 
 });
