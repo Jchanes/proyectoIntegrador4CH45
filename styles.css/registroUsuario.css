@@ -2,7 +2,7 @@ body {
     background-color: #eee;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .wrapper {
@@ -14,13 +14,14 @@ body {
     box-shadow: 20px 20px 80px rgb(206, 206, 206)
 }
 
-h2, h4 {
+h2,
+h4 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.form-group{
+.form-group {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -28,7 +29,7 @@ h2, h4 {
     font-size: small;
 }
 
-.input-group-text{
+.input-group-text {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -36,7 +37,7 @@ h2, h4 {
     font-size: small;
 }
 
-#labelStyle{
+#labelStyle {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -44,35 +45,49 @@ h2, h4 {
     font-size: small;
 }
 
-.form-group{
-    padding:  10px 30px 10px 30px;
+.form-group {
+    padding: 10px 30px 10px 30px;
 }
 
-#name, #telefono, #mail, #password1, #password2 {
+#name,
+#telefono,
+#mail,
+#password1,
+#password2 {
     color: #7b4ca0;
     border: 1px solid #7b4ca0;
     border-radius: 5px;
-    outline: none; /* Para quitar el borde azul predeterminado al hacer focus */
+    outline: none;
+    /* Para quitar el borde azul predeterminado al hacer focus */
     transition: box-shadow 0.3s ease;
 }
 
 #exampleFormControlSelect1 {
-color: #7b4ca0;
-border: 1px solid #7b4ca0;
-border-radius: 5px;
-outline: none; /* Para quitar el borde azul predeterminado al hacer focus */
-transition: box-shadow 0.3s ease;
+    color: #7b4ca0;
+    border: 1px solid #7b4ca0;
+    border-radius: 5px;
+    outline: none;
+    /* Para quitar el borde azul predeterminado al hacer focus */
+    transition: box-shadow 0.3s ease;
 
 }
 
-#name:focus, #telefono:focus, #mail:focus, #password1:focus, #password2:focus {
-    box-shadow: 0 0 10px 2px #7b4ca0; /* Sombra al hacer focus */
-    border-color: #7b4ca0; /* Cambia el color del borde */
-  }
+#name:focus,
+#telefono:focus,
+#mail:focus,
+#password1:focus,
+#password2:focus {
+    box-shadow: 0 0 10px 2px #7b4ca0;
+    /* Sombra al hacer focus */
+    border-color: #7b4ca0;
+    /* Cambia el color del borde */
+}
 
-#exampleFormControlSelect1:focus{
-    box-shadow: 0 0 10px 2px #7b4ca0; /* Sombra al hacer focus */
-    border-color: #7b4ca0; /* Cambia el color del borde */
+#exampleFormControlSelect1:focus {
+    box-shadow: 0 0 10px 2px #7b4ca0;
+    /* Sombra al hacer focus */
+    border-color: #7b4ca0;
+    /* Cambia el color del borde */
 }
 
 input {
@@ -85,9 +100,35 @@ input {
 }
 
 
-#btnValidar{
+#btnValidar {
     background-color: #9469A2;
     border-color: #9469A2;
     color: #eee;
 }
 
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon-valid {
+    color: green;
+}
+
+.icon-invalid {
+    color: red;
+}
+
+.fondocolor {
+    background-color: rgb(228, 223, 235)
+}
+ul {
+    list-style-type: none;
+  }
