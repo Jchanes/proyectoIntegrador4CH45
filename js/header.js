@@ -18,28 +18,28 @@ headerGlobal.innerHTML = `
                             <a class="nav-link active" id="colorLetraNavBar" aria-current="page" href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./rock.html"" id="colorLetraNavBar" target="_blank">Rock</a >
+                            <a class="nav-link" href="./rock.html"" id="colorLetraNavBar">Rock</a >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./indie.html"" id="colorLetraNavBar" target="_blank">Indie</a>
+                            <a class="nav-link" href="./indie.html"" id="colorLetraNavBar">Indie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./edm.html"" id="colorLetraNavBar" target="_blank">EDM</a>
+                            <a class="nav-link" href="./edm.html"" id="colorLetraNavBar">EDM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./regional.html"" id="colorLetraNavBar" target="_blank">Regional</a>
+                            <a class="nav-link" href="./regional.html"" id="colorLetraNavBar" >Regional</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./urban.html"" target="_blank" id="colorLetraNavBar">Urban</a>
+                            <a class="nav-link" href="./urban.html""  id="colorLetraNavBar">Urban</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pop.html"" target="_blank" id="colorLetraNavBar">Pop</a>
+                            <a class="nav-link" href="./pop.html"" id="colorLetraNavBar">Pop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./rap.html"" target="_blank" id="colorLetraNavBar">Rap</a>
+                            <a class="nav-link" href="./rap.html" id="colorLetraNavBar">Rap</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./productos.html"" target="_blank" id="colorLetraNavBar">Productos</a>
+                            <a class="nav-link" href="./productos.html" id="colorLetraNavBar">Productos</a>
                         </li>
                         </ul>
                     </div>
