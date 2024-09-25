@@ -1,3 +1,4 @@
+
 const txtname = document.getElementById("name");
 const txtnumber = document.getElementById("number");
 const txtmail = document.getElementById("mail");
@@ -11,7 +12,6 @@ let isValidMensaje = true
 let isValidEmail = true
 
 function validarName(name) {
-  
     let pattern = /^[a-zA-Z\s-]{3,}$/;
     return pattern.test(name)
 }
@@ -40,35 +40,44 @@ btnValidar.addEventListener("click", function (event) {
 
     if (nombreEsValido) {
         console.log("Nombre válido")
+        txtname.style.border=''
     } else {isValidName= false
         console.log("Nombre inválido")
+        txtname.style.border='solid red medium'
     }
 
     if (emailEsValido) {
         console.log("Email válido")
+        txtmail.style.border=''
     } else {isValidEmail= false
         console.log("Email inválido")
+        txtmail.style.border='solid red medium'
     }
 
     if (telefonoEsValido) {
         console.log("Teléfono válido")
+        txtnumber.style.border=''
     } else {isValidTelefono= false
         console.log("Teléfono inválido (debe ser un número de 10 dígitos)")
+        txtnumber.style.border='solid red medium'
+
     }
 
     if (mensajeEsValido) {
         console.log("Mensaje válido")
+        txtmessage.style.border=''
     } else {isValidMensaje= false
         console.log("Mensaje inválido (debe tener entre 30 y 500 caracteres)")
+        txtmessage.style.border='solid red medium'
     }
 
     if (emailEsValido==true && mensajeEsValido==true && nombreEsValido==true && telefonoEsValido==true) {
         
         let templateParams = {
-           name: txtname.value,
-           email: txtmail.value,
-           tel: txtnumber.value,
-           message: txtmessage.value  
+            name: txtname.value,
+            email: txtmail.value,
+            tel: txtnumber.value,
+            message: txtmessage.value  
         }
 
         emailjs.send('service_3sr4zi6','template_bm1ym9o',templateParams)

@@ -8,13 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const txtGenero = document.getElementById("exampleFormControlSelect1");
 
     function validarTitulo(titulo) {
-        let pattern = /^[a-zA-Z\s-]{3,}$/;
-        return pattern.test(titulo);
+       // let pattern =  /^(?:\D*\d){3}\D*$/;
+        
+       //return pattern.test(titulo);
+       return titulo.trim().length>=3;
     }
 
     function validarDescription(description) {
-        let pattern = /^[a-zA-Z0-9\s!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{10,}$/;
-        return pattern.test(description);
+        //let pattern = /^[a-zA-Z0-9\s!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{10,}$/;
+        //return pattern.test(description);
+        return description.trim().length>=5;
     }
 
     /* function validarLink(link) {
@@ -23,12 +26,13 @@ document.addEventListener("DOMContentLoaded", function () {
     } */
 
     function validarLink(link){
-        return txtLink.files.length != 0
+        return txtLink.files.length != 0;
     }    
 
     function validarPrecio(precio) {
-        let pattern = /^\$?[0-9]+(\.[0-9]{1,2})?$/;
-        return pattern.test(precio);
+        //let pattern = /^\$?[0-9]+(\.[0-9]{1,2})?$/;
+        //return pattern.test(precio);
+        return precio!='';
     }
 
     btnValidar.addEventListener("click", function (event) {
@@ -41,46 +45,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Verifica en consola los resultados de la validación
         console.log("Título válido:", tituloEsValido);
+        txtTitulo.style.border = ''
         console.log("Descripción válida:", descriptionEsValido);
+        txtDescription.style.border = ''
         console.log("Enlace válido:", linkEsValido);
+        txtLink.style.border = ''
         console.log("Precio válido:", precioEsValido);
+        txtPrecio.style.border = ''
+
 
         if (!tituloEsValido) {
             console.log("Error: Título no es válido");
+            txtTitulo.style.border = 'solid red thin'
             Swal.fire({
                 icon: 'error',
                 title: 'Error en el título',
-                text: 'El título debe tener al menos 3 caracteres y solo contener letras y espacios.',
+                text: 'El título debe tener al menos 3 caracteres',
             });
             return;
         }
 
         if (!descriptionEsValido) {
             console.log("Error: Descripción no es válida");
+            txtDescription.style.border = 'solid red thin'
             Swal.fire({
                 icon: 'error',
                 title: 'Error en la descripción',
-                text: 'La descripción debe tener al menos 10 caracteres.',
+                text: 'La descripción debe tener al menos 5 caracteres.',
             });
             return;
         }
 
         if (!linkEsValido) {
-            console.log("Error: Enlace no es válido");
+<<<<<<< HEAD
+            console.log("Error: Imagen no cargada");
+=======
+            console.log("Error: Archivo no válido");
+            txtLink.style.border = 'solid red thin'
+>>>>>>> tareaNueve
             Swal.fire({
                 icon: 'error',
-                title: 'Error al colocar imagen',
-                text: 'Sube una imagen valida',
+                title: 'Error al colocar una imagen',
+                text: 'Sube una imagen válida',
             });
             return;
         }
 
         if (!precioEsValido) {
             console.log("Error: Precio no es válido");
+            txtPrecio.style.border = 'solid red thin'
             Swal.fire({
                 icon: 'error',
                 title: 'Error en el precio',
-                text: 'El precio debe estar en un formato numérico válido, como 100 o $100.00.',
+                text: 'Favor de ingresar un precio para el producto',
             });
             return;
         }

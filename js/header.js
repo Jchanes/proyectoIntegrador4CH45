@@ -30,16 +30,22 @@ headerGlobal.innerHTML = `
                             <a class="nav-link" href="./regional.html"" id="colorLetraNavBar" >Regional</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./urban.html""  id="colorLetraNavBar">Urban</a>
-                        </li>
-                        <li class="nav-item">
+
+                            <a class="nav-link" href="./urban.html"" id="colorLetraNavBar">Urban</a>
+
                             <a class="nav-link" href="./pop.html"" id="colorLetraNavBar">Pop</a>
+
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="./rap.html"" id="colorLetraNavBar">Rap</a>
+                        </li>
+                        <li class="nav-item">
+
                             <a class="nav-link" href="./rap.html" id="colorLetraNavBar">Rap</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./productos.html" id="colorLetraNavBar">Productos</a>
+                            <a class="nav-link" href="./productos.html""  id="colorLetraNavBar">Productos</a>
+
                         </li>
                         </ul>
                     </div>
@@ -47,7 +53,7 @@ headerGlobal.innerHTML = `
                         <a class="navbar-brand" href="#">
                             <img src="./Assets/NavBarLogos/carrito1.png" alt="Bootstrap" width="30" height="30">
                             </a>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="registroUsuario.html">
                         <img src="./Assets/NavBarLogos/perfil.png" alt="Bootstrap" width="30" height="30">
                         </a>
                     </div>
