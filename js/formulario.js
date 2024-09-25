@@ -45,12 +45,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Verifica en consola los resultados de la validación
         console.log("Título válido:", tituloEsValido);
+        txtTitulo.style.border = ''
         console.log("Descripción válida:", descriptionEsValido);
+        txtDescription.style.border = ''
         console.log("Enlace válido:", linkEsValido);
+        txtLink.style.border = ''
         console.log("Precio válido:", precioEsValido);
+        txtPrecio.style.border = ''
+
 
         if (!tituloEsValido) {
             console.log("Error: Título no es válido");
+            txtTitulo.style.border = 'solid red thin'
             Swal.fire({
                 icon: 'error',
                 title: 'Error en el título',
@@ -61,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!descriptionEsValido) {
             console.log("Error: Descripción no es válida");
+            txtDescription.style.border = 'solid red thin'
             Swal.fire({
                 icon: 'error',
                 title: 'Error en la descripción',
@@ -70,7 +77,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         if (!linkEsValido) {
+<<<<<<< HEAD
             console.log("Error: Imagen no cargada");
+=======
+            console.log("Error: Archivo no válido");
+            txtLink.style.border = 'solid red thin'
+>>>>>>> tareaNueve
             Swal.fire({
                 icon: 'error',
                 title: 'Error al colocar una imagen',
@@ -81,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!precioEsValido) {
             console.log("Error: Precio no es válido");
+            txtPrecio.style.border = 'solid red thin'
             Swal.fire({
                 icon: 'error',
                 title: 'Error en el precio',

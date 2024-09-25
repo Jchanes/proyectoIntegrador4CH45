@@ -47,7 +47,7 @@ headerGlobal.innerHTML = `
                         <a class="navbar-brand" href="#">
                             <img src="./Assets/NavBarLogos/carrito1.png" alt="Bootstrap" width="30" height="30">
                             </a>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="registroUsuario.html">
                         <img src="./Assets/NavBarLogos/perfil.png" alt="Bootstrap" width="30" height="30">
                         </a>
                     </div>
