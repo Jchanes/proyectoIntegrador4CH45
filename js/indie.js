@@ -24,14 +24,14 @@ function addItem(item) {
 }
 
 addItem({
-    'name': ' Sudadera zoé diseño multicolor',
+    'name': ' Sudadera Zoé diseño multicolor',
     'img': './Assets/Indie/Susadera1Zoe.jpg',
     'description': 'Cerrada con capucha y cangurera, 50% algodón – 50%poliéster. ',
     'precio': '800'
 });
 
 addItem({
-    'name': ' Sudadera zoé diseño Gold',
+    'name': ' Sudadera Zoé diseño Gold',
     'img': './Assets/Indie/ZoeGold.jpg',
     'description': 'Cerrada con capucha y cangurera, 50% algodón – 50%poliéster. ',
     'precio': '800'
@@ -59,14 +59,14 @@ addItem({
 });
 
 addItem({
-    'name': ' Sudadera Empire Of The Sun diseño verde',
+    'name': ' Sudadera Empire Of The Sun',
     'img': './Assets/Indie/sudaderaeos.webp',
     'description': 'Sudadera cubierta con diseño exclusivo, 50% algodón – 50%poliéster. ',
     'precio': '750'
 });
 
 addItem({
-    'name': 'Taza Im a looser de Beck',
+    'name': 'Taza "I am a looser" de Beck',
     'img': './Assets/Indie/TazaBeck.webp',
     'description': 'Taza original con frases de la canción looser de Beck Hansen ',
     'precio': '250'
@@ -87,7 +87,7 @@ addItem({
 });
 
 addItem({
-    'name': 'Playerad de Beck Hansen',
+    'name': 'Playera de Beck Hansen',
     'img': 'Assets/Indie/beckPlayera.webp"',
     'description': 'Playera 100% algodon de Beck Hansen',
     'precio': '200'

@@ -26,27 +26,27 @@ function addItem(item){
 addItem({'name':' Termo inoxidable de Pink Floyd + Llavero de regalo',
     'img':'Assets/rock/termo-rock.jfif',
     'description':'Termo lata con popote de 500 ml. Soporta más de 8 horas la temperatura de las bebidas ',
-    'precio':'449.99'});
+    'precio':'300'});
 
 addItem({'name':' 50 parches de bandas de rock y metal',
     'img':'Assets/rock/parches-rock.jfif',
-    'description':'parches termoadherentes de máxima calidad, material algodón, tienen un tamaño de 11 cm x 6.5 cm y 1.1 mm de grosor ',
-    'precio':'379.99'});
+    'description':'Parches termoadherentes de máxima calidad, material algodón, tienen un tamaño de 11 cm x 6.5 cm y 1.1 mm de grosor ',
+    'precio':'300'});
 
 addItem({'name':' 3 pares de calcetines de rock',
     'img':'Assets/rock/calcetines-rock.jfif',
-    'description':'calcetines largos, deportivos, composición 100 % de algodón  ',
-    'precio':'449.99'});
+    'description':'Calcetines largos, deportivos, composición 100 % de algodón  ',
+    'precio':'300'});
 
 addItem({'name':'Correa para guitarra - Perris Leathers Guns N Roses',
     'img':'Assets/rock/correa-rock.jfif',
-    'description':'práctica correa de guitarra que se puede fijar rápida y fácilmente a todo tipo de guitarra, todos los tamaños, 2 pulgadas de ancho, longitud ajustable de 39 a 58 pulgadas para un ajuste óptimo; antideslizante, duradero, cómodo, fácil de fijar ',
-    'precio':'457'});
+    'description':'Práctica correa de guitarra que se puede fijar rápida y fácilmente a todo tipo de guitarra. Todos los tamaños, 2 pulgadas de ancho, longitud ajustable de 39 a 58 pulgadas para un ajuste óptimo; antideslizante, duradero, cómodo, fácil de fijar ',
+    'precio':'400'});
 
 addItem({'name':'KESYOO Muñequeras',
     'img':'Assets/rock/muñequera-rock.jfif',
-    'description':'Pulsera con forma de calavera: y , con patrón de calavera y el exterior decorado con cadenas de plata, hecho de cuero, para un uso prolongado y cómodo ',
-    'precio':'449.99'});
+    'description':'Pulsera con forma de calavera, con patrón de calavera y el exterior decorado con cadenas de plata, hecho de cuero, para un uso prolongado y cómodo ',
+    'precio':'400'});
 
 
 

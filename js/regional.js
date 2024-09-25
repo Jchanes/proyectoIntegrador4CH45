@@ -23,62 +23,62 @@ function addItem(item){
     itemsContainer.innerHTML += itemHTML;
 }
 
-addItem({'name':'T-Shirt "Invasores de Nuevo León',
+addItem({'name':'T-Shirt "Invasores de Nuevo León"',
     'img':'./Assets/regional/tshirtINVASORES.jpeg',
     'description':'Elaborada en tela 100% algodón, con estampado de alta calidad',
-    'precio':'899.00'});
+    'precio':'350'});
 
 
 addItem({'name':'Hat cap "TQM" by Fuerza Régida',
     'img':'./Assets/regional/hatcap.jpeg',
     'description':'Elaborada en lona, bordado premium, con rejillas que ayudan a la transpiración',
-    'precio':'1099.00'});
+    'precio':'300'});
 
 
-addItem({'name':'Vaso con popote "Gerardo Ortíz',
+addItem({'name':'Vaso con popote "Gerardo Ortíz"',
     'img':'./Assets/regional/vaso.jpeg',
     'description':'35 cm de alto, capacidad de 750 ml, elaborado en polímero resistente a golpes',
-    'precio':'459.00'});
+    'precio':'200'});
 
 
 addItem({'name':'Jacket "Grupo Frontera"',
     'img':'./Assets/regional/jacket.jpeg',
     'description':'Elaborada en algodón con aplicaciones de vinipiel y bordado de alta calidad',
-    'precio':'1999.00'});
+    'precio':'1100'});
 
 
 addItem({'name':'Taza "Vicente Fernández"',
     'img':'./Assets/regional/taza.jpeg',
     'description':'Taza cerámica con serigrafía. Ideal para microondas',
-    'precio':'429.00'});
+    'precio':'300'});
 
 
 addItem({'name':'T-Shirt "EL REY" by Vicente Fernández',
     'img':'./Assets/regional/elrey.jpeg',
     'description':'Elaborada en algodón con estampado de alta calidad',
-    'precio':'899.00'});
+    'precio':'350'});
 
 
 
-addItem({'name':'Perezoso by "Natanael Cano"',
+addItem({'name':'Perezoso de "Natanael Cano"',
     'img':'./Assets/regional/peluche.webp',
-    'description':'Perezoso oficial by Natanael Cano, 25 cm de alto',
-    'precio':'1599.00'});
+    'description':'Perezoso oficial de Natanael Cano, 25 cm de alto',
+    'precio':'400'});
 
 
-    addItem({'name':'Gorra by "Peso Pluma"',
+    addItem({'name':'Gorra de "Peso Pluma"',
         'img':'./Assets/regional/gorra.webp',
-        'description':'Gorra oficial by Peso Pluma, clásica ajustable con visera plana bordada de 5 paneles',
-        'precio':'399.00'});
+        'description':'Gorra oficial de Peso Pluma, clásica ajustable con visera plana bordada de 5 paneles',
+        'precio':'250'});
 
 
-        addItem({'name':'T-Shirt by "Tigres del norte"',
+        addItem({'name':'T-Shirt by "Tigres del Norte""',
             'img':'./Assets/regional/tigres.jpg',
-            'description':'T-Shirt oficial by Tigres del norte, 100% algodón Camiseta cómoda y suave, un básico en tu armario',
-            'precio':'599.00'});
+            'description':'T-Shirt oficial de Tigres del norte, 100% algodón Camiseta cómoda y suave, un básico en tu armario',
+            'precio':'350'});
 
 
             addItem({'name':'T-Shirt by "Grupo Firme"',
                 'img':'./Assets/regional/playera7.webp',
                 'description':'T-Shirt by Grupo Firme, Playera con estampado de Impresión digital con mangas',
-                'precio':'799.00'});
+                'precio':'350'});
