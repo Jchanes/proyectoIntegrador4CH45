@@ -86,7 +86,6 @@ function validarPassword() {
     }
 }
 
-
 passwordInput.addEventListener('input', validarPassword);
 confirmPasswordInput.addEventListener('input', validarPassword);
 
@@ -162,3 +161,7 @@ btnValidar.addEventListener("click", function(event) {
     }
     
 })
+
+passwordInput.addEventListener('input', validatePassword);
+confirmPasswordInput.addEventListener('input', validatePassword); 
+
