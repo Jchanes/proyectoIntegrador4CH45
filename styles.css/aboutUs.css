@@ -43,68 +43,16 @@ p {
    border-radius: 10px;
 }
 
-/* Margen para separar la caption de la imagen */
-.carousel-caption {
-   margin-bottom: 20px;
+.card-body{
    background-color: rgba(148, 105, 162, 0.5);
-   padding: 1rem;
-   border-radius: 5px;
-   position: absolute; 
-   bottom: 0; 
-   left: 50%;
-   transform: translateX(-10%); 
+   height: 400px;
+}
+
+.card-title{
    text-align: center;
-   width: 90%; 
 }
 
-.carousel-caption h5 {
-   font-size: 1.5rem;
-   font-family: 'Arial', sans-serif;
-   padding: 5px;
-   border-radius: 5px;
+.card-descrption{
+   margin-top: 25px;
 }
 
-.carousel-caption p {
-   font-size: 1rem;
-   font-family: 'Verdana', sans-serif;
-   padding: 10px;
-   border-radius: 5px;
-}
-
-/* Responsividad */
-@media (max-width: 768px) {
-   .carousel-caption {
-       padding: 0.5rem;
-       margin-bottom: 10px;
-   }
-
-   .carousel-caption h5 {
-       font-size: 1.2rem;
-   }
-
-   .carousel-caption p {
-       font-size: 0.9rem;
-   }
-}
-
-@media (max-width: 576px) {
-   .carousel-caption {
-       padding: 0.5rem;
-       margin-bottom: 5px;
-   }
-
-   .carousel-caption h5 {
-       font-size: 1rem;
-   }
-
-   .carousel-caption p {
-       font-size: 0.8rem;
-   }
-}
-
-
-/* Controladores del carrusel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-   filter: invert(1);
-}
