@@ -72,7 +72,7 @@ addItem({'name':'Perezoso de "Natanael Cano"',
         'precio':'250'});
 
 
-        addItem({'name':'T-Shirt by "Tigres del Norte""',
+        addItem({'name':'T-Shirt by "Tigres del Norte"',
             'img':'./Assets/regional/tigres.jpg',
             'description':'T-Shirt oficial de Tigres del norte, 100% algodón Camiseta cómoda y suave, un básico en tu armario',
             'precio':'350'});
