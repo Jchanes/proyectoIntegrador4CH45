@@ -24,14 +24,14 @@ function addItem(item) {
 }
 
 addItem({
-    'name': ' Sudadera Zoé diseño multicolor',
+    'name': ' Hoodie Zoé diseño multicolor',
     'img': './Assets/Indie/Susadera1Zoe.jpg',
     'description': 'Cerrada con capucha y cangurera, 50% algodón – 50%poliéster. ',
     'precio': '800'
 });
 
 addItem({
-    'name': ' Sudadera Zoé diseño Gold',
+    'name': ' Hoodie Zoé diseño Gold',
     'img': './Assets/Indie/ZoeGold.jpg',
     'description': 'Cerrada con capucha y cangurera, 50% algodón – 50%poliéster. ',
     'precio': '800'
@@ -59,7 +59,7 @@ addItem({
 });
 
 addItem({
-    'name': ' Sudadera Empire Of The Sun',
+    'name': ' Hoodie Empire Of The Sun',
     'img': './Assets/Indie/sudaderaeos.webp',
     'description': 'Sudadera cubierta con diseño exclusivo, 50% algodón – 50%poliéster. ',
     'precio': '750'

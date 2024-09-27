@@ -33,9 +33,11 @@ function validarEmail(mail) {
 }
 
 function validarPassword() {
+
+
     const password = passwordInput.value;
 
-    if (password.length > 8) {
+    if (/.{8,}$/.test(password)) {
         lengthItem.classList.remove('invalid');
         lengthItem.classList.add('valid');
         lengthItem.querySelector('.icon').classList.remove(crossIcon, 'icon-invalid');
@@ -46,6 +48,7 @@ function validarPassword() {
         lengthItem.classList.add('invalid');
         lengthItem.querySelector('.icon').classList.remove(checkIcon, 'icon-valid');
         lengthItem.querySelector('.icon').classList.add(crossIcon, 'icon-invalid');
+        isValidPassword=false
     }
 
     if (/[A-Z]/.test(password)) {
@@ -132,7 +135,7 @@ btnValidar.addEventListener("click", function(event) {
         passwordInput.style.border='solid red medium'
     }
 
-    if (emailEsValido==true && telefonoEsValido==true && nombreEsValido==true) {
+    if (emailEsValido==true && telefonoEsValido==true && nombreEsValido==true && passwordEsValido) {
         Swal.fire({
             position: "center",
             icon: "success",
