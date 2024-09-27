@@ -1,24 +1,22 @@
-#logoTFB{
+#logoTFB {
     width: 5rem;
 }
 
-#headerColor{
-    background: rgb(33,35,34);
-background: linear-gradient(90deg, rgba(33,35,34,1) 2%, rgba(109,169,210,1) 29%, rgba(199,67,117,1) 55%, rgba(97,111,101,1) 77%, rgba(148,57,162,1) 100%);
+#headerColor {
+    background: rgb(33, 35, 34);
+    background: linear-gradient(90deg, rgba(33, 35, 34, 1) 2%, rgba(109, 169, 210, 1) 29%, rgba(199, 67, 117, 1) 55%, rgba(97, 111, 101, 1) 77%, rgba(148, 57, 162, 1) 100%);
 }
 
-.headerFont{ 
-    font-family: "Bebas Neue", sans-serif;
+.headerFont { 
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-#colorLetraNavBar{
+#colorLetraNavBar {
     color: white;
 }
 
-#fondocolor{
-    background-color: rgb(228, 223, 235)
+#fondocolor {
+    background-color: rgb(228, 223, 235);
 }
-
-

@@ -1,13 +1,15 @@
-  .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 63%;
-    object-fit: cover;
-    z-index: -1;
-  }
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 63%;
+  object-fit: cover;
+  z-index: -1;
+}
 
-  section {
-    padding-bottom: 100px;
+section {
+  padding-bottom: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
 }

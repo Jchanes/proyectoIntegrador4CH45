@@ -2,28 +2,34 @@
 h1 {
    text-align: center;
    margin-top: 20px;
-   font-family: 'Arial', sans-serif;
    font-size: 2.5rem;
    color: #333;
+   font-family: 'Bebas Neue', sans-serif;
 }
 
-/* Estilo para el texto de la página */
+h2, .title {
+   font-family: 'Bebas Neue', sans-serif;
+   font-weight: 700;
+}
+
 p {
-   font-family: 'Verdana', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
    font-size: 1rem;
    line-height: 1.6;
    text-align: justify;
    margin: 20px;
 }
 
+/* Estilo para el texto de la página */
 .description {
-   font-family: 'Arial', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 16px;
    line-height: 1.5;
    color: #000;
 }
 
-.vmv{
+.vmv {
    font-family: 'Arial', sans-serif;
    position: relative;
    width: 978px;
@@ -43,16 +49,80 @@ p {
    border-radius: 10px;
 }
 
-.card-body{
+/* Margen para separar la caption de la imagen */
+.carousel-caption {
+   margin-bottom: 20px;
+   background-color: rgba(148, 105, 162, 0.5);
+   padding: 1rem;
+   border-radius: 5px;
+   position: absolute; 
+   bottom: 0; 
+   left: 50%;
+   transform: translateX(-10%); 
+   text-align: center;
+   width: 90%; 
+}
+
+.carousel-caption h5 {
+   font-size: 1.5rem;
+   font-family: 'Bebas Neue', sans-serif;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.carousel-caption p {
+   font-size: 1rem;
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+   .carousel-caption {
+       padding: 0.5rem;
+       margin-bottom: 10px;
+   }
+
+   .carousel-caption h5 {
+       font-size: 1.2rem;
+   }
+
+   .carousel-caption p {
+       font-size: 0.9rem;
+   }
+}
+
+@media (max-width: 576px) {
+   .carousel-caption {
+       padding: 0.5rem;
+       margin-bottom: 5px;
+   }
+
+   .carousel-caption h5 {
+       font-size: 1rem;
+   }
+
+   .carousel-caption p {
+       font-size: 0.8rem;
+   }
+}
+
+/* Controladores del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   filter: invert(1);
+}
+
+.card-body {
    background-color: rgba(148, 105, 162, 0.5);
    height: 400px;
 }
 
-.card-title{
+.card-title {
    text-align: center;
 }
 
-.card-descrption{
+.card-descrption {
    margin-top: 25px;
 }
-
