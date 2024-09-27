@@ -16,3 +16,40 @@
 #btnCerrar{
     background-color: blueviolet;
 }
+
+.product:hover .product-img{
+    
+    cursor: pointer;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.5);
+
+}
+
+.product{
+    position: relative;
+}
+
+.product-container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.product-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
