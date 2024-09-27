@@ -4,3 +4,15 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
+
+.footerstyle, .modal-title{
+    font-family: "Source Sans Pro";
+}
+
+.modal-title{
+    font-size: xx-large;
+}
+
+#btnCerrar{
+    background-color: blueviolet;
+}
