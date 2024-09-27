@@ -1,0 +1,51 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const modalContainer = document.getElementById('modal');
+
+    if (!localStorage.getItem('popupShown')) {
+        popUp();
+        localStorage.setItem('popupShown', 'true');
+    }
+
+    function popUp() {
+        const modalHtml = `
+            <div class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <div class="video-container">
+                        <video autoplay muted>
+                            <source src="Assets/Video/True_fan.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        modalContainer.innerHTML = modalHtml;
+
+        const closeButton = modalContainer.querySelector('.modal-close');
+        closeButton.addEventListener('click', closeModal);
+
+        const modalBackdrop = modalContainer.querySelector('.modal-backdrop');
+        
+        modalBackdrop.addEventListener('click', function(event) {
+            if (event.target === modalBackdrop) {
+                closeModal();
+            }//if
+        }//function(event)
+    );//modalBackdrop.addEventListener
+
+        const video = modalContainer.querySelector('video');
+
+        video.play().catch(error => {
+            console.error("Error attempting to play video: ", error);
+        }//error =>
+    );//video.play().catch
+
+        video.addEventListener('ended', closeModal);
+    }//fnction popUp
+
+    function closeModal() {
+        modalContainer.innerHTML = '';
+    }//closeModal
+}); //addEventListener('DOMContentLoaded')
