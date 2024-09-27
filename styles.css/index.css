@@ -13,3 +13,21 @@ section {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
+
+  section {
+    padding-bottom: 100px;
+}
+
+.swiffy-slider{
+  position: relative;
+  left: 5%;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .swiffy-slider {
+    left: 0;
+  }
+}
+>>>>>>> Stashed changes
