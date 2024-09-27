@@ -35,3 +35,22 @@
 .tituloGrande {
     font-size: 3rem;
 }
+
+#name,
+#number,
+#mail, 
+#message {
+    color: #7b4ca0;
+    border: 1px solid #7b4ca0;
+    border-radius: 5px;
+    outline: none; /* Para quitar el borde azul predeterminado al hacer focus */
+    transition: box-shadow 0.3s ease;
+}
+
+#name:focus, 
+#number:focus, 
+#mail:focus, 
+#message:focus {
+    box-shadow: 0 0 10px 2px #7b4ca0; /* Sombra al hacer focus */
+    border-color: #7b4ca0; /* Cambia el color del borde */
+}
