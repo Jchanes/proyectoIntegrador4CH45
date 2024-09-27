@@ -30,6 +30,7 @@
 
 .product{
     position: relative;
+    font-family: "Source Sans Pro";
 }
 
 .product-container{
@@ -52,4 +53,8 @@
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+  }
+
+  .btn-primary{
+    color: aqua;
   }
