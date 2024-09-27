@@ -32,7 +32,9 @@ headerGlobal.innerHTML = `
                         <li class="nav-item">
 
                             <a class="nav-link" href="./urban.html"" id="colorLetraNavBar">Urban</a>
-
+                            
+                        </li>
+                        <li>
                             <a class="nav-link" href="./pop.html"" id="colorLetraNavBar">Pop</a>
                         </li>
                         <li class="nav-item">
