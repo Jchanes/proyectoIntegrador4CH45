@@ -15,7 +15,7 @@ headerGlobal.innerHTML = `
                     <div class="collapse navbar-collapse p-2 bd-highlight" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item  ">
-                            <a class="nav-link active" id="colorLetraNavBar" aria-current="page" href="/index.html">Inicio</a>
+                            <a class="nav-link active" id="colorLetraNavBar" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./rock.html"" id="colorLetraNavBar">Rock</a >
@@ -34,14 +34,9 @@ headerGlobal.innerHTML = `
                             <a class="nav-link" href="./urban.html"" id="colorLetraNavBar">Urban</a>
 
                             <a class="nav-link" href="./pop.html"" id="colorLetraNavBar">Pop</a>
-
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./rap.html"" id="colorLetraNavBar">Rap</a>
-                        </li>
-                        <li class="nav-item">
-
-                            <a class="nav-link" href="./rap.html" id="colorLetraNavBar">Rap</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./productos.html""  id="colorLetraNavBar">Productos</a>
