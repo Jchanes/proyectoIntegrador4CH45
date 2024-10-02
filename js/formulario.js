@@ -77,12 +77,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         if (!linkEsValido) {
-<<<<<<< HEAD
             console.log("Error: Imagen no cargada");
-=======
             console.log("Error: Archivo no válido");
             txtLink.style.border = 'solid red thin'
->>>>>>> tareaNueve
             Swal.fire({
                 icon: 'error',
                 title: 'Error al colocar una imagen',
