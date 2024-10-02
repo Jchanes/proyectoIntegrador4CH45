@@ -5,7 +5,7 @@ footer.innerHTML = `
 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 ps-lg-5  pt-4  border-top background-color: #D9D9D9;">
             <div class="col mb-3">
             <a href="./index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-            <img src="../Assets/logoTFB.png" class="bi me-2" width="80" height="80"></img>
+            <img src="./Assets/logoTFB.png" class="bi me-2" width="80" height="80"></img>
             </a>
             <p class="text-body-secondary">Atención al cliente</p>
             <p class="text-body-secondary">truefanboutique@gmail.com</p>
