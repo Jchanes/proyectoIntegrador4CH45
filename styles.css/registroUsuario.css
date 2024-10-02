@@ -19,6 +19,15 @@ h2, h4 {
     font-style: normal;
 }
 
+h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+#color{
+    color: #7b4ca0;
+}
+
 .form-group {
     font-family: 'Source Sans Pro', sans-serif;
     font-optical-sizing: auto;
