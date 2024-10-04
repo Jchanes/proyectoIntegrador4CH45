@@ -86,7 +86,6 @@ h6{
     border-color: #7b4ca0; /* Cambia el color del borde */
 }
 
-
 input {
     border: none;
     outline: none;
@@ -95,8 +94,7 @@ input {
     padding: 0px 2px;
     font-family: 'Poppins', sans-serif;
 }
-#cuerpoHeader {
-    font-size: 25px; 
+
 #btnValidar {
     background-color: #9469A2;
     border-color: #9469A2;
@@ -129,5 +127,3 @@ input {
 ul {
     list-style-type: none;
   }
-
-  <button type="button " class="btn btn-primary rounded-pill btn-lg" id="btnValidar">Registrar</button>
