@@ -18,7 +18,7 @@ let isValidEmail = true
 let isValidPassword = true
 
 function validarName(name) {
-    let pattern = /^[a-záéíóúñA-ZÁÉÍÓÚÑ]{5,}([ '-][a-záéíóúñA-ZÁÉÍÓÚÑ]{1,})*$/
+    let pattern = /^[a-záéíóúñA-ZÁÉÍÓÚÑ]{2,}([ '-][a-záéíóúñA-ZÁÉÍÓÚÑ]{2,})*$/
     return pattern.test(name)
 }
 
