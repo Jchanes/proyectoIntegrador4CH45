@@ -34,7 +34,6 @@ function validarEmail(mail) {
 
 function validarPassword() {
 
-
     const password = passwordInput.value;
 
     if (/.{8,}$/.test(password)) {
@@ -142,10 +141,17 @@ btnValidar.addEventListener("click", function(event) {
             showConfirmButton: false,
             timer: 1500
         });
-        localStorage.setItem('name',JSON.stringify(txtname.value))
-        localStorage.setItem('number',JSON.stringify(txtnumber.value))
-        localStorage.setItem('email',JSON.stringify(txtmail.value))
-        localStorage.setItem('password',JSON.stringify(passwordInput.value))
+
+        let usuario = {
+            name: txtname.value,
+            tel: txtnumber.value,
+            email: txtmail.value,
+            password: passwordInput.value,
+        };
+
+        let users = JSON.parse(localStorage.getItem("Users")) || [];   
+        users.push(usuario);
+        localStorage.setItem("Users", JSON.stringify(users));
 
     } else {
             Swal.fire({
@@ -165,6 +171,6 @@ btnValidar.addEventListener("click", function(event) {
     
 })
 
-passwordInput.addEventListener('input', validatePassword);
-confirmPasswordInput.addEventListener('input', validatePassword); 
+passwordInput.addEventListener('input', validarPassword);
+confirmPasswordInput.addEventListener('input', validarPassword); 
 

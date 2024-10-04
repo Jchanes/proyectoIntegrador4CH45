@@ -79,6 +79,11 @@ btnValidar.addEventListener("click", function (event) {
             tel: txtnumber.value,
             message: txtmessage.value  
         }
+        txtmessage.value = ''
+        txtname.value=''
+        txtnumber.value=''
+        txtmail.value=''
+
 
         emailjs.send('service_3sr4zi6','template_bm1ym9o',templateParams)
         .then((response)=>{
