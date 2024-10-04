@@ -12,12 +12,12 @@ let isValidMensaje = true
 let isValidEmail = true
 
 function validarName(name) {
-    let pattern = /^[a-zA-Z\s-]{3,}$/;
+    let pattern = /^[a-záéíóúñA-ZÁÉÍÓÚÑ]{2,}([ '-][a-záéíóúñA-ZÁÉÍÓÚÑ]{2,})*$/
     return pattern.test(name)
 }
 
 function validarTelefono(telefono) {
-    let pattern = /^\d{10}$/
+    let pattern = /^(?!0+$)(?!.*(\d)\1{2})\d{10}$/
     return pattern.test(telefono)
 }
 
