@@ -12,13 +12,13 @@ if(listProducts != null){
 function addItem(item){
     const itemHTML = '<div class="product card mt-3 mb-5" style="width: 18rem;">\n' +
         '    <div class="product-container">'+
-        '    <img src="'+item.img +'" class="product-img card-img-top" alt="image">\n' +
+        '    <img src="' + item.img + '" class="product-img  card-img-top" alt="image">\n' +
         '     </div> \n'+ 
-        '    <div class="card-body">\n' +
-        '        <h5 class="card-title">'+item.name+'</h5>\n' +
-        '        <p class="card-text">'+item.description+'</p>\n' +
-        '         <p class="card-text">$'+item.precio+'</p>\n' +
-        '        <a href="#" class="btn btn-primary">Agregar al carrito</a>\n' +
+        '    <div class="card-body" id="card-aling">\n' +
+        '        <h5 class="card-title">' + item.name + '</h5>\n' +
+        '        <p class="card-text">' + item.description + '</p>\n' +
+        '         <p class="card-text">$' + item.precio + '</p>\n' +
+        '        <a href="#" class="btn btn-primary rounded-pill btn-lg  " id="BtnAdd">Agregar al carrito</a>\n' +
         '    </div>\n' +
         '</div>\n' +
         '<br/>';
