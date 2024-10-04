@@ -7,8 +7,6 @@ footer.innerHTML = `
             <a href="./index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
             <img src="./Assets/logoTFB.png" class="bi me-2" width="80" height="80"></img>
             </a>
-            <p class="text-body-secondary">Atención al cliente</p>
-            <p class="text-body-secondary">truefanboutique@gmail.com</p>
             <p class="text-body-secondary">True Fan © 2024</p>
         </div>
     

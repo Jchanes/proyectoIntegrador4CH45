@@ -127,3 +127,5 @@ input {
 ul {
     list-style-type: none;
   }
+
+  <button type="button " class="btn btn-primary rounded-pill btn-lg" id="btnValidar">Registrar</button>

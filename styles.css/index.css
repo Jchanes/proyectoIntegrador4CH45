@@ -1,4 +1,4 @@
-.video-background {
+/* .video-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -6,7 +6,7 @@
   height: 63%;
   object-fit: cover;
   z-index: -1;
-}
+} */
 
 section {
   padding-bottom: 100px;
@@ -78,4 +78,9 @@ h1 {
   .swiffy-slider {
     left: 0;
   }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 5063b25dec6d794e5775f0c4be0a9b4dd63027f8
