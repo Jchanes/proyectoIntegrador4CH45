@@ -1,17 +1,4 @@
 let headerGlobal = document.getElementById('headerGlobal')
-let style = document.createElement('style');
-
-// header css
-style.innerHTML = `
-    #navbarItems .nav-link {
-        font-size: 1.9rem;
-        margin-right: 15px;
-        color: white;
-    }
-
-`;
-document.head.appendChild(style);
-// header css
 
 headerGlobal.innerHTML = `
     <header class="headerFont">
@@ -55,7 +42,7 @@ headerGlobal.innerHTML = `
                     </ul>
                 </div>
                 <div class="d-flex">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="./carrito.html">
                         <img src="./Assets/NavBarLogos/carrito1.png" alt="Carrito" width="30" height="30">
                     </a>
                     <a class="navbar-brand" href="registroUsuario.html">
