@@ -140,7 +140,7 @@ btnValidar.addEventListener("click", function(event) {
             title: "Enviado",
             showConfirmButton: false,
             timer: 1500
-        });
+        })
 
         let usuario = {
             name: txtname.value,
@@ -153,6 +153,10 @@ btnValidar.addEventListener("click", function(event) {
         users.push(usuario);
         localStorage.setItem("Users", JSON.stringify(users));
 
+        txtname.value = ''
+        txtnumber.value=''
+        txtmail.value=''
+        passwordInput.value=''
     } else {
             Swal.fire({
                 position: "center",
