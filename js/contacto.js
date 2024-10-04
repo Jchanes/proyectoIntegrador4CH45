@@ -12,12 +12,12 @@ let isValidMensaje = true
 let isValidEmail = true
 
 function validarName(name) {
-    let pattern = /^[a-zA-Z\s-]{3,}$/;
+    let pattern = /^[a-záéíóúñA-ZÁÉÍÓÚÑ]{2,}([ '-][a-záéíóúñA-ZÁÉÍÓÚÑ]{2,})*$/
     return pattern.test(name)
 }
 
 function validarTelefono(telefono) {
-    let pattern = /^\d{10}$/
+    let pattern = /^(?!0+$)(?!.*(\d)\1{2})\d{10}$/
     return pattern.test(telefono)
 }
 
@@ -79,6 +79,11 @@ btnValidar.addEventListener("click", function (event) {
             tel: txtnumber.value,
             message: txtmessage.value  
         }
+        txtmessage.value = ''
+        txtname.value=''
+        txtnumber.value=''
+        txtmail.value=''
+
 
         emailjs.send('service_3sr4zi6','template_bm1ym9o',templateParams)
         .then((response)=>{

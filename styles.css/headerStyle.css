@@ -1,5 +1,5 @@
 #logoTFB {
-    width: 5rem;
+    width: 6rem;
 }
 
 #headerColor {
@@ -19,4 +19,10 @@
 
 #fondocolor {
     background-color: rgb(228, 223, 235);
+}
+
+#navbarItems .nav-link {
+    font-size: 1.9rem;
+    margin-right: 15px;
+    color: white;
 }

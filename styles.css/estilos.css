@@ -58,3 +58,16 @@
   .btn-primary{
     color: aqua;
   }
+
+  #BtnAdd{
+    background-color: #9469A2;
+    border-color: #9469A2;
+    color: #eee;
+    margin: auto; /* Centra el botón */
+    display: block; /* Necesario para que el margen funcione */
+  }
+
+  #card-aling{
+    justify-content: center;
+    text-align: center; /* Centra horizontalmente el texto (incluido el botón) */   
+  }
