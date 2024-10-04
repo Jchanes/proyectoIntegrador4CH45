@@ -157,6 +157,7 @@ btnValidar.addEventListener("click", function(event) {
         txtnumber.value=''
         txtmail.value=''
         passwordInput.value=''
+        confirmPasswordInput.value=''
     } else {
             Swal.fire({
                 position: "center",
