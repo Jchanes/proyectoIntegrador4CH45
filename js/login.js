@@ -44,15 +44,14 @@ button.addEventListener("click",(e)=>{
         Swal.fire({
             position: "center",
             icon: "error",
-            title: "Usuario no encontrado, revisa bien los campos",
+            title: "Usuario y/o Contraseña no coinciden",
             showConfirmButton: false,
             timer: 4000
         });
 
         password.style.border='solid red medium';
         email.style.border='solid red medium';
-        password.value = '';
-        email.value = '';
+        
 
     } else{
 
@@ -77,15 +76,14 @@ button.addEventListener("click",(e)=>{
             Swal.fire({
                 position: "center",
                 icon: "error",
-                title: "Usuario no encontrado, revisa bien los campos",
+                title: "Usuario y/o Contraseña no coinciden",
                 showConfirmButton: false,
                 timer: 4000
             });
     
             password.style.border='solid red medium';
             email.style.border='solid red medium';
-            password.value = '';
-            email.value = '';
+            
 
         }
 
