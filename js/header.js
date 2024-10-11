@@ -43,10 +43,10 @@ headerGlobal.innerHTML = `
                 </div>
                 <div class="d-flex">
                     <a class="navbar-brand" href="./carrito.html">
-                        <img src="./Assets/NavBarLogos/carrito1.png" alt="Carrito" width="30" height="30">
+                        <img src="./Assets/NavBarLogos/carrito1.png" alt="Carrito" width="75" height="55">
                     </a>
                     <a class="navbar-brand" href="registroUsuario.html">
-                        <img src="./Assets/NavBarLogos/perfil.png" alt="Perfil" width="30" height="30">
+                        <img src="./Assets/NavBarLogos/perfil.png" alt="Perfil" width="60" height="55">
                     </a>
                 </div>
             </div>
