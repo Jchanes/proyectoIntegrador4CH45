@@ -17,7 +17,7 @@ function validarName(name) {
 }
 
 function validarTelefono(telefono) {
-    let pattern = /^(?!0+$)(?!.*(\d)\1{2})\d{10}$/
+    let pattern = /^[1-9]\d{9}$/
     return pattern.test(telefono)
 }
 

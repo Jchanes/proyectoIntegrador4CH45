@@ -23,7 +23,7 @@ function validarName(name) {
 }
 
 function validarTelefono(number) {
-    let pattern =  /^(?!0+$)(?!.*(\d)\1{2})\d{10}$/
+    let pattern =  /^[1-9]\d{9}$/ 
     return pattern.test(number)
 }
 
@@ -131,6 +131,7 @@ btnValidar.addEventListener("click", function(event) {
         isValidPassword=false
         console.log("Contraseña invalida");
         passwordInput.style.border='solid red medium'
+        confirmPasswordInput.border='solid red medium'
     }
 
     if (emailEsValido==true && telefonoEsValido==true && nombreEsValido==true && passwordEsValido) {
