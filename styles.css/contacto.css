@@ -5,8 +5,38 @@
 #titulosHeader {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
-    font-style: normal;
+    text-align: center;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    font-size: 3rem; 
+    padding: 10px;
 }
+
+.titulosDif{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    font-size: 3rem; 
+    padding: 10px;
+}
+
+.tituloGrande {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-size: 3.5rem; 
+    margin-top: 40px; 
+}
+
+
+.holtwood-one-sc-regular {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
 
 #ubicacionHeader {
     font-family: 'Source Sans Pro', sans-serif;
@@ -43,7 +73,7 @@
     color: #7b4ca0;
     border: 1px solid #7b4ca0;
     border-radius: 5px;
-    outline: none; /* Para quitar el borde azul predeterminado al hacer focus */
+    outline: none; 
     transition: box-shadow 0.3s ease;
 }
 
@@ -51,6 +81,6 @@
 #number:focus, 
 #mail:focus, 
 #message:focus {
-    box-shadow: 0 0 10px 2px #7b4ca0; /* Sombra al hacer focus */
-    border-color: #7b4ca0; /* Cambia el color del borde */
+    box-shadow: 0 0 10px 2px #7b4ca0;
+    border-color: #7b4ca0;
 }

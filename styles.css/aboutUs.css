@@ -1,16 +1,21 @@
 /* Estilo para el título */
-h1 {
-   text-align: center;
-   margin-top: 20px;
-   font-size: 2.5rem;
-   color: #333;
+
+#titulosHeader {
    font-family: 'Bebas Neue', sans-serif;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 5px; 
+   font-size: 3rem; 
+   padding: 0.5px;
 }
+
 
 h2, .title {
    font-family: 'Bebas Neue', sans-serif;
    font-weight: 700;
 }
+
+
 
 p {
    font-family: 'Source Sans Pro', sans-serif;
@@ -37,6 +42,7 @@ p {
    left: 60px;
 }
 
+
 /* Estilo para el carrusel */
 .carousel {
    margin: 40px auto;
@@ -51,7 +57,7 @@ p {
 
 /* Margen para separar la caption de la imagen */
 .carousel-caption {
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    background-color: rgba(148, 105, 162, 0.5);
    padding: 1rem;
    border-radius: 5px;

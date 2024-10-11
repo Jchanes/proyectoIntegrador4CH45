@@ -4,6 +4,32 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#titulosHeader {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    font-size: 3rem; 
+    padding: 10px;
+}
+
+.titulosDif{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    font-size: 3rem; 
+    padding: 10px;
+}
+
+.tituloGrande {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-size: 3.5rem; 
+    margin-top: 40px; 
+}
 .wrapper {
     max-width: 60%;
     max-height: fit-content;
