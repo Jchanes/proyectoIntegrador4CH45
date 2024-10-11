@@ -32,7 +32,7 @@ function addItem(item) {
 
 addItem({
     'name': 'Hoodie Bad Bunny',
-    'img': './Assets/urban/badbunnyHoodie.jpg',
+    'img': './Assets/urban/hoodieBBsinMarcaAgua.webp',
     'description': 'Lleva la esencia de X100PRE de Bad Bunny con esta hoodie negra. Con un diseño minimalista y el logotipo en blanco, es cómoda y perfecta para cualquier ocasión.',
     'precio': '800'
 });
