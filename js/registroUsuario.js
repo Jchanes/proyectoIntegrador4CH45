@@ -130,8 +130,8 @@ btnValidar.addEventListener("click", function(event) {
     }else {
         isValidPassword=false
         console.log("Contraseña invalida");
+        confirmPasswordInput.style.border='solid red medium'
         passwordInput.style.border='solid red medium'
-        confirmPasswordInput.border='solid red medium'
     }
 
     if (emailEsValido==true && telefonoEsValido==true && nombreEsValido==true && passwordEsValido) {
