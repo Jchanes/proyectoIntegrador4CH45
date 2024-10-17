@@ -1,3 +1,8 @@
+/* Estilo para el título */
+body{
+    padding-top: 100px;
+ }
+
 #fondocolor {
     background-color: rgb(228, 223, 235);
 }

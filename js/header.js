@@ -43,8 +43,17 @@ headerGlobal.innerHTML = `
                 </div>
                 <div class="d-flex">
                     <a class="navbar-brand" href="./carrito.html">
-                        <img src="./Assets/NavBarLogos/carrito1.png" alt="Carrito" width="75" height="55">
-                    </a>
+            <img src="./Assets/NavBarLogos/carrito1.png" alt="Carrito" width="75" height="55">
+            <div class="buy-card" id="card-buy">
+                <ul class="nav-card" id="vaciar2">
+                    <li>Imagen</li>
+                    <li>Nombre</li>
+                    <li>Precio</li>
+                    <li>Cantidad</li>
+                </ul>
+                <button class="rounded-pill" id="vaciar">VACIAR CARRITO</button>
+            </div>
+        </a>
                     <a class="navbar-brand" href="registroUsuario.html">
                         <img src="./Assets/NavBarLogos/perfil.png" alt="Perfil" width="60" height="55">
                     </a>

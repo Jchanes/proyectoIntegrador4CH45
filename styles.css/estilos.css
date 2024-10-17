@@ -1,3 +1,7 @@
+/* Estilo para el título */
+body{
+  padding-top: 100px;
+}
 /* Sección de estilos del footer */
 #footer {
     background-color: #D9D9D9;

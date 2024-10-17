@@ -2,6 +2,14 @@
     width: 6rem;
 }
 
+header{
+    position: fixed;
+    width: 100%; /* Ancho completo */    
+    top: 0;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+
+}
+
 #headerColor {
     background: rgb(33, 35, 34);
     background: linear-gradient(90deg, rgba(33, 35, 34, 1) 2%, rgba(109, 169, 210, 1) 29%, rgba(199, 67, 117, 1) 55%, rgba(97, 111, 101, 1) 77%, rgba(148, 57, 162, 1) 100%);
@@ -25,4 +33,53 @@
     font-size: 1.9rem;
     margin-right: 15px;
     color: white;
+}
+
+#nav-card{
+    display: none;
+}
+
+#vaciar{
+    display: none;
+}
+
+#vaciar2{
+    display: none;
+}
+
+.nav-card li{
+    list-style: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.d-flex a:hover > .buy-card{
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    background-color:rgb(228, 223, 235);
+    border-color: #9469A2;
+    
+    border-radius: 20px;
+}
+
+.d-flex a:hover #vaciar{
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    margin: 10px auto;
+    cursor: pointer;
+    color: white;
+    background-color: #9469A2;
+    border-color: #9469A2; 
+}
+
+.d-flex a:hover #vaciar2{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    border-bottom: solid thin white;
 }
